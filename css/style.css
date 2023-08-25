@@ -24,12 +24,15 @@ header {
 }
 .acercademi .card{
 	border: 1px solid #ffffff46;
-	width: 30%;
+	width: 40%;
 	border-radius: 10px;
-	margin-left: 11%;
+	margin-left: 7%;
 	padding: 15px;
-	backdrop-filter: sepia(90%);
+	backdrop-filter: sepia(95%);
 	cursor: pointer;
+	background: radial-gradient(circle, rgba(51,51,51,1) 0%, rgba(0,0,0,1) 90%);
+	color: #FFFFFF;
+
 }
 
 /* Estilos de la sección de proyectos */
@@ -119,7 +122,7 @@ header {
 #skills ul img{
 	padding-left: 25px;
 }
-@media screen and (max-width:800px ){
+@media screen and (max-width:200px ){
 	#skills ul img{
 		width: 10%;
 	}
@@ -127,6 +130,12 @@ header {
 #skills ul img:hover{
 	scale: 1.5;
 	transition: 0.5s;
+}
+#skills2 ul img:hover{
+	scale: 3;
+	transition: 0.5s;
+	justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width:800px ){
 	.acercademi .detalles{
@@ -158,14 +167,5 @@ small {
   align-items: center;
 }
 
-.zoom-image {
-  transition: all 0.5s;
-  width: 100px;
-  margin: 2px;
-  max-width: 90%;
-  max-height: 90%;
-}
 
-.zoom-image.enlarged {
-  width: 700px;
-}
+
