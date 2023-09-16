@@ -75,17 +75,13 @@ header {
 .link-polleria{
 	color: #E63223;
 }
-@media screen and (max-width:800px ){
-	.project-card {
-		display: block;
-		width: 76.5%;
-		margin-left: 50px;
-	}
-	.project-card img {
-		width: 97%;
-	}
 
+.rounded mx-auto d-block{
+	width:"500px"; 
+	height:"500px";
 }
+
+
 /*contactos*/
 .contacto{
 	text-align: center;
