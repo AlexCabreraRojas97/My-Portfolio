@@ -3,8 +3,8 @@ body {
 	margin: auto;
 	max-width: 800px;
 	padding:20px; 
-	background: rgb(51,51,51);
-    background: radial-gradient(circle, rgba(51,51,51,1) 0%, rgba(0,0,0,1) 52%);
+	background: rgb(92,92,92);
+    background: radial-gradient(circle, rgba(92,92,92,1) 0%, rgba(0,0,0,1) 52%);
 	color: #FFFFFF;
 	border: 1px solid rgba(255, 255, 255, 0.100);
 }
@@ -22,18 +22,7 @@ header {
 	display: inline-flex;
 	
 }
-.acercademi .card{
-	border: 1px solid #ffffff46;
-	width: 40%;
-	border-radius: 10px;
-	margin-left: 7%;
-	padding: 15px;
-	backdrop-filter: sepia(95%);
-	cursor: pointer;
-	background: radial-gradient(circle, rgba(51,51,51,1) 0%, rgba(0,0,0,1) 90%);
-	color: #FFFFFF;
 
-}
 
 /* Estilos de la sección de proyectos */
 #projects h2 {
@@ -59,7 +48,7 @@ header {
 	padding-left: 5px;
 }
 .project-card img:hover{
-	scale: 1.4;
+	scale: 1.2;
 	transition: 1s;
 }
 
@@ -138,15 +127,7 @@ header {
 		display: inline-block;
 		margin-left: 50px;
 	}
-	.acercademi .card {
-		border: 1px solid #ffffff46;
-		width: 50%;
-		border-radius: 10px;
-		backdrop-filter: sepia(90%);
-		cursor: pointer;
-		margin-bottom: 22px;
-	}
-}  
+	  
 
 /* Estilos del pie de página */
 footer{
@@ -163,5 +144,9 @@ small {
   align-items: center;
 }
 
+.carousel-inner img {
+    height: 300px;
+    
+  }
 
 
